@@ -38,7 +38,7 @@ Deep learning system for automatic **BIRADS category prediction** from mammograp
 
 This project implements an **EfficientNetB0-based classifier** that maps screening mammography images to a **BIRADS category (1–5)**, indicating the likelihood of malignancy.
 
-It refactors a Kaggle notebook into a clean Python package with:
+It provides a clean Python package with:
 
 - A training pipeline
 - A Streamlit web application
@@ -160,7 +160,7 @@ confidence = pred[birads_class - 1]
 mammography-birads-ai/
 ├── app.py                    # Streamlit app
 ├── config/
-├── data/                     # Mammography datasets (Kaggle)
+├── data/                     # Mammography datasets
 ├── docs/                     # Research, architecture, benchmarks, guides
 ├── experiments/
 ├── models/                   # Saved weights (birads_model.h5)
