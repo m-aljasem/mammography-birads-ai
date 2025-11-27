@@ -8,8 +8,8 @@ from pathlib import Path
 from src.explainability import ModelExplainer
 from src.model import build_birads_model
 
-st.set_page_config(page_title="BIRADS Classification", page_icon="🔬")
-st.title("🔬 Mammography BIRADS Classification")
+st.set_page_config(page_title="Mammography BIRADS AI", page_icon="🔬")
+st.title("Mammography BIRADS AI")
 
 MODELS_DIR = Path("models")
 WEIGHTS_PATH = MODELS_DIR / "birads_model.h5"

@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "breast-cancer"
+name="mammography-birads-ai"
 version = "1.0.0"
 description = "Mammography BIRADS Classification using EfficientNet"
 readme = "README.md"

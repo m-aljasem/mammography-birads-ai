@@ -95,7 +95,7 @@ pip install -r requirements-dev.txt
 ### 1️⃣ Train the Model & Export Weights
 
 ```bash
-cd breast-cancer
+cd mammography-birads-ai
 python src/train.py
 ```
 
@@ -110,7 +110,7 @@ models/birads_model.h5
 ### 2️⃣ Run the Streamlit App
 
 ```bash
-cd breast-cancer
+cd mammography-birads-ai
 streamlit run app.py
 ```
 
@@ -157,7 +157,7 @@ confidence = pred[birads_class - 1]
 ## 🗂 Project Structure
 
 ```text
-breast-cancer/
+mammography-birads-ai/
 ├── app.py                    # Streamlit app
 ├── config/
 ├── data/                     # Mammography datasets (Kaggle)
@@ -203,7 +203,7 @@ models/birads_model.h5
 To deploy elsewhere, copy:
 
 ```text
-breast-cancer/
+mammography-birads-ai/
 └── models/
     └── birads_model.h5
 ```
